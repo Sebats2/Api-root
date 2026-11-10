@@ -1,1 +1,1 @@
-{"rewrites":[{"source":"/extract","destination":"/api/extract"},{"source":"/health","destination":"/api/health"}],"functions":{"api/*.js":{"maxDuration":30}}}
+{"rewrites":[{"source":"/extract","destination":"/api/extract"},{"source":"/health","destination":"/api/health"}],"functions":{"api/**/*.js":{"maxDuration":30}}}
